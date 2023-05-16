@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "",
   "license": "ISC",
@@ -17,5 +17,11 @@
     "chai": "^4.3.7",
     "mocha": "^10.2.0",
     "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
   }
 }
