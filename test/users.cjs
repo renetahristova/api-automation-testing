@@ -2,7 +2,6 @@ const request = require('supertest');
 require("dotenv").config();
 
 const TOKEN = process.env.USER_TOKEN;
-console.log(`token is ${TOKEN}`);
 const url = 'https://gorest.co.in/public/v2/';
 
 describe('Users', () => {
